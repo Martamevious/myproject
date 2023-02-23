@@ -1,0 +1,160 @@
+body
+{
+    background-image: linear-gradient(95deg,rgb(156, 112, 55),rgb(61, 46, 24));
+        background-position: fixed;
+    /* background-repeat: ; */
+}
+
+form
+{
+    width: 30pc;
+    transform: translate(400px,100px);    
+    margin-bottom: 100px;
+
+}
+
+ #inscription div.logo, #connexion div.logo
+{
+    position: relative;
+    float: left;
+    padding: 10px;
+    margin-right: 300px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+    color: rgb(216, 157, 29);
+    font-family: sergoi;
+}
+
+div span
+{
+    color: rgb(75, 26, 26);
+    font-size:2.5em;
+    font-family: sergio;
+}
+#inscription, #connexion
+{
+    /* background-color:  rgb(252, 252, 252); */
+    background-image: linear-gradient(25deg,rgb(226, 224, 216),rgb(236, 234, 232));
+    margin: 10px;
+    border-radius: 12px;
+    text-align: center;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+#inscription p , #connexion div#recup
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px ;
+    
+}
+
+#connexion #envoyer
+{
+    margin: 20px 2px;
+    padding: 7px 32px;
+    border: 2px solid rgb(84, 126, 28);
+    font-weight: 300;
+    border-radius: 5px;
+    background-color:rgb(195, 214, 169);
+    color: rgb(5, 15, 5);
+}
+#connexion #envoyer:hover
+{
+    background-color:rgb(92, 128, 39);
+    color: rgb(230, 241, 230);
+
+}
+#connexion div#recup a 
+{
+    margin: 20px 40px;
+}
+
+#inscription div#but
+{
+    display:flex;
+    justify-content: space-around;
+    margin: 20px 90px;
+
+}
+
+#inscription div#but input
+{
+    padding: 6px 25px;
+    border: 2PX solid rgb(57, 83, 9);
+    border-radius: 5px;
+    color: rgb(244, 247, 243);
+    background-color: rgb(98, 129, 36);
+}
+
+#inscription div#but input:hover
+{
+    color: rgb(10, 2, 2);
+    background-color: rgb(223, 233, 211);
+}
+#inscription div#but input#reset
+{
+    background-color: rgb(185, 32, 32);
+}
+
+#inscription div#but input#reset:hover
+{
+    background-color: rgb(240, 178, 178);
+}
+
+#inscription p input, #connexion p input
+{
+    border: none ;
+    background-color: rgb(230, 228, 228);
+    border-radius: 2px;
+    width: 50%;
+    height: 23px;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+select
+{
+    border: none;
+    border-radius: 4px ;
+    border-bottom: 1px solid black;
+    background-color: rgb(230, 228, 228);   
+    width: 50%;
+    height: 25px;
+    outline: none;
+}
+a
+{
+    border: none;
+    border-radius: 4px ;
+
+    background-color: rgb(230, 228, 228);
+    width: 50%;
+    text-decoration: none;;
+}
+
+
+
+select.op
+{
+    border: none;   
+}
+
+div#backimg
+{
+    background-image: url('media/desktop-1600x900.jpg');
+    filter:blur(3px);
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.78;
+    transform: translate(-0.6%, -1.5%);
+}
+div#error
+{
+    color: rgb(223, 3, 3);
+    
+    width:auto;
+ }

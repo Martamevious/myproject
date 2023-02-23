@@ -1,0 +1,189 @@
+form
+{
+    width: 30pc;
+    transform: translate(450px,50px);    
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding:0 -10px;
+    
+}
+
+
+fieldset
+{
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    color: rgb(17, 10, 1);
+    font-size: large;
+    
+}
+
+fieldset #maison,#Terrain,#Chambre
+{
+    background-color: rgb(189, 185, 185);
+    margin-top:20px ;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+   transform: translateX(-3px);
+    border-radius: 1px;
+    border-top: 10px solid black;
+    width: auto;
+    outline: none;
+
+}
+fieldset #maison p
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px ;
+}
+
+fieldset #Terrain p
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px ;
+}
+fieldset #Chambre p
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px ;
+}
+fieldset #maison #envoyer,fieldset #Terrain #envoyer,fieldset #Chambre #envoyer
+{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(59, 85, 12);
+    padding: 5px 15px;
+    color: white;
+}
+p select #choix
+{
+    border-radius: 25px;
+    border: 1px solid black;
+    outline: none;
+    
+}
+
+input:not(#valid)
+{
+    border: none;
+    border-radius: 3.5px;
+}
+
+
+/* {
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(59, 85, 12);
+    padding: 5px 15px;
+    color: white;
+}
+
+
+{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(59, 85, 12);
+    padding: 5px 15px;
+    color: white;
+} */
+p select .op
+{
+    background-color: black;
+}
+
+div.profil
+{
+    background-color: rgb(233, 233, 231);
+    background-image: url('media/icons8-utilisateur-48.png');
+    background-size: contain;
+    width: 28.5px;
+    height: 28.5px;
+    border-radius: 50%;
+    margin-right: 0px;
+    margin-left: 10px;
+    transform: translateY(10.9px);
+}
+
+li.profil
+{
+    background-color: rgb(247, 246, 246);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+p.profil
+{
+    color: rgb(31, 22, 6);
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+li.profil span
+{
+    transform: translateY(20px);
+}
+
+ul#sous
+{
+    display: none;
+    
+    list-style-type: none;
+    text-align: center;
+    padding: 0 10px;
+}
+
+li.profil:hover > ul#sous
+{
+    display: block;
+    position:absolute;
+    background-color:rgb(247, 246, 246) ;
+    width: 8.7%;
+    border-radius: 10px;
+    padding: auto 0;
+    margin: 0 0;
+    transform: translateY(37px);
+
+}
+
+
+li.profil:hover > ul#sous li:hover
+{
+    background-color: rgb(201, 199, 199);
+    width: auto;
+    border-radius: 5%;
+    height: auto;
+
+}
+
+input, select 
+{
+    outline: none;
+}
+li.profil:hover > ul#sous li a
+{
+    display: flex;
+    justify-content: center;
+    border: none;
+    
+}
+li.profil:hover > ul#sous li a i
+{
+    transform: translateY(1.7px);
+}
+
+ #mesliens a
+{
+    text-decoration: none;
+    color: rgb(26, 5, 5);
+    border: 2px solid rgb(80, 24, 24);
+    border-radius: 5px;
+   transform: translate(50%, 10%);
+    padding: 5px 10px;
+}

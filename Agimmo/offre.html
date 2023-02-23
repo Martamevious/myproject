@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Agimmo.css">
+    <link rel="stylesheet" href="offre.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dépôt d'offres</title>
+</head>
+<body>
+    <nav >
+        <div class="logo">
+            <div id="cercle"></div>
+            <div id="form"></div>   
+            <h2><span>A</span>gimmo</h2> 
+        </div>
+        <li > <a href="Agimmo.php">Accueil</a> </li>
+        <li id="me"> <a href="offre.php">Offres</a> </li>
+        <li> <a href="contact.php">Nous contacter</a> </li>
+        <style>
+            nav li#me
+             {
+                background-color:rgb(167, 79, 53);
+                border-radius: 5px;
+                padding:2px;
+                color:aliceblue;
+             }
+         </style>
+    </nav>
+    
+    <main>
+       
+        <form action="offre.php" method="post">
+           <fieldset>
+                <legend></legend>
+                <p>
+                    <label for="Type de bien">Type de bien : </label>
+                    <select name="sele" id="choix" tabindex="1">
+                        <option value=""></option>
+                        <option value="Maison" name="Maison">Maison</option>
+                        <option value="Terrain">Terrain</option>
+                        <option value="Chambres...">Chambres...</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <input type="submit" value="valider" name="valider">
+           
+        </form>
+
+
+    
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
